@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="KramseCleanup"
+  DTS:DTSID="{F029FA5A-A79E-4399-9991-F9C310E80068}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=KramseCleanup;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-{F029FA5A-A79E-4399-9991-F9C310E80068}KramseCleanup;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
