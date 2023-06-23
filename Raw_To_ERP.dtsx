@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="77"
-  DTS:VersionGUID="{B4D35896-F83A-4840-B80E-A17B80406EC2}">
+  DTS:VersionBuild="78"
+  DTS:VersionGUID="{46CC1F44-758C-4E36-8005-A90B0CC25016}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -61,7 +61,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\school\Kramse\Data sources\2016-EU MRV Publication of information v5.xlsx;Extended Properties=&quot;Excel 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\school\Kramse\Data sources\2016-EU MRV Publication of information v5.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -73,7 +73,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\school\Kramse\Data sources\Consignor.xlsx;Extended Properties=&quot;Excel 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\school\Kramse\Data sources\Consignor.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -6486,6 +6486,19 @@ where [refTable].[Sh_Shipname] = ?</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Consignor\Excel Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Load Container">
     <LayoutInfo>
@@ -6494,37 +6507,25 @@ where [refTable].[Sh_Shipname] = ?</property>
         <NodeLayout
           Size="173,42"
           Id="Package\Load Container\Raw Data Container"
-          TopLeft="636,130" />
+          TopLeft="612,175" />
         <NodeLayout
           Size="202,42"
           Id="Package\Load Container\ERP Destination Container"
           TopLeft="597.333333333333,295.666666666667" />
         <EdgeLayout
           Id="Package\Load Container.Paths[OLE DB Source Output]"
-          TopLeft="722.5,172">
+          TopLeft="698.416666666667,217">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-24.1666666666666,123.666666666667"
+              EndConnector="0,78.666666666667"
               Start="0,0"
-              End="-24.1666666666666,116.166666666667">
+              End="0,71.166666666667">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,57.8333333333333" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,57.8333333333333"
-                    Point2="0,61.8333333333333"
-                    Point3="-4,61.8333333333333" />
-                  <mssgle:LineSegment
-                    End="-20.1666666666666,61.8333333333333" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-20.1666666666666,61.8333333333333"
-                    Point2="-24.1666666666666,61.8333333333333"
-                    Point3="-24.1666666666666,65.8333333333333" />
-                  <mssgle:LineSegment
-                    End="-24.1666666666666,116.166666666667" />
+                    End="0,71.166666666667" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7274,19 +7275,6 @@ where [refTable].[Sh_Shipname] = ?</property>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load Consignor\Excel Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
