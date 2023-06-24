@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="26"
-  DTS:VersionGUID="{94CD8137-E97E-4FF6-B04F-805357DB1A13}">
+  DTS:VersionBuild="29"
+  DTS:VersionGUID="{1284387E-AC77-42C2-A2B5-7F0FB1186EA9}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -4890,6 +4890,54 @@
                       cachedName="StartDate"
                       externalMetadataColumnId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[StartDate]"
                       lineageId="Package\Load Ship\Derived Column 1.Outputs[Derived Column Output].Columns[StartDate]" />
+                    <inputColumn
+                      refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].Columns[Total fuel consumption (m tonnes)]"
+                      cachedDataType="r8"
+                      cachedName="Total fuel consumption (m tonnes)"
+                      externalMetadataColumnId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Total fuel consumption (m tonnes)]"
+                      lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Total fuel consumption (m tonnes)]" />
+                    <inputColumn
+                      refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].Columns[Total CO₂ emissions (m tonnes)]"
+                      cachedDataType="r8"
+                      cachedName="Total CO₂ emissions (m tonnes)"
+                      externalMetadataColumnId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Total CO₂ emissions (m tonnes)]"
+                      lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Total CO₂ emissions (m tonnes)]" />
+                    <inputColumn
+                      refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].Columns[Annual Total time spent at sea (hours)]"
+                      cachedDataType="r8"
+                      cachedName="Annual Total time spent at sea (hours)"
+                      externalMetadataColumnId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Annual Total time spent at sea (hours)]"
+                      lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual Total time spent at sea (hours)]" />
+                    <inputColumn
+                      refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].Columns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      cachedDataType="r8"
+                      cachedName="Annual average Fuel consumption per distance (kg / n mile)"
+                      externalMetadataColumnId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average Fuel consumption per distance (kg / n mile)]" />
+                    <inputColumn
+                      refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].Columns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      cachedDataType="r8"
+                      cachedName="Annual average Fuel consumption per transport work (mass) (g / m"
+                      externalMetadataColumnId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average Fuel consumption per transport work (mass) (g / m]" />
+                    <inputColumn
+                      refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      cachedDataType="r8"
+                      cachedName="Annual average CO₂ emissions per distance (kg CO₂ / n mile)"
+                      externalMetadataColumnId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]" />
+                    <inputColumn
+                      refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      cachedDataType="r8"
+                      cachedName="Annual average CO₂ emissions per transport work (mass) (g CO₂ / "
+                      externalMetadataColumnId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]" />
+                    <inputColumn
+                      refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].Columns[Total time spent at sea (hours)]"
+                      cachedDataType="r8"
+                      cachedName="Total time spent at sea (hours)"
+                      externalMetadataColumnId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Total time spent at sea (hours)]"
+                      lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Total time spent at sea (hours)]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -4943,6 +4991,38 @@
                       refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Ship_Row_Id]"
                       dataType="i4"
                       name="Ship_Row_Id" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Total fuel consumption (m tonnes)]"
+                      dataType="r8"
+                      name="Total fuel consumption (m tonnes)" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Total CO₂ emissions (m tonnes)]"
+                      dataType="r8"
+                      name="Total CO₂ emissions (m tonnes)" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Annual Total time spent at sea (hours)]"
+                      dataType="r8"
+                      name="Annual Total time spent at sea (hours)" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      dataType="r8"
+                      name="Annual average Fuel consumption per distance (kg / n mile)" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      dataType="r8"
+                      name="Annual average Fuel consumption per transport work (mass) (g / m" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      dataType="r8"
+                      name="Annual average CO₂ emissions per distance (kg CO₂ / n mile)" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      dataType="r8"
+                      name="Annual average CO₂ emissions per transport work (mass) (g CO₂ / " />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[Total time spent at sea (hours)]"
+                      dataType="r8"
+                      name="Total time spent at sea (hours)" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -5101,7 +5181,7 @@
                   description="The SQL command to be executed."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[D_Ship] SET [Sh_Shipname] = ? WHERE [VS_Shipid] = ? AND [EndDate] IS NULL</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[D_Ship] SET [Annual average CO₂ emissions per distance (kg CO₂ / n mile)] = ?,[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ] = ?,[Annual average Fuel consumption per distance (kg / n mile)] = ?,[Annual average Fuel consumption per transport work (mass) (g / m] = ?,[Annual Total time spent at sea (hours)] = ?,[Sh_Shipname] = ?,[Total CO₂ emissions (m tonnes)] = ?,[Total fuel consumption (m tonnes)] = ?,[Total time spent at sea (hours)] = ? WHERE [VS_Shipid] = ? AND [EndDate] IS NULL</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -5124,26 +5204,129 @@
                   name="OLE DB Command Input">
                   <inputColumns>
                     <inputColumn
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      cachedDataType="r8"
+                      cachedName="Annual average CO₂ emissions per distance (kg CO₂ / n mile)"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]" />
+                    <inputColumn
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      cachedDataType="r8"
+                      cachedName="Annual average CO₂ emissions per transport work (mass) (g CO₂ / "
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]" />
+                    <inputColumn
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      cachedDataType="r8"
+                      cachedName="Annual average Fuel consumption per distance (kg / n mile)"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average Fuel consumption per distance (kg / n mile)]" />
+                    <inputColumn
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      cachedDataType="r8"
+                      cachedName="Annual average Fuel consumption per transport work (mass) (g / m"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average Fuel consumption per transport work (mass) (g / m]" />
+                    <inputColumn
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[Annual Total time spent at sea (hours)]"
+                      cachedDataType="r8"
+                      cachedName="Annual Total time spent at sea (hours)"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual Total time spent at sea (hours)]" />
+                    <inputColumn
                       refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[Sh_Shipname]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Sh_Shipname"
-                      externalMetadataColumnId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
                       lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Sh_Shipname]" />
+                    <inputColumn
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[Total CO₂ emissions (m tonnes)]"
+                      cachedDataType="r8"
+                      cachedName="Total CO₂ emissions (m tonnes)"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total CO₂ emissions (m tonnes)]" />
+                    <inputColumn
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[Total fuel consumption (m tonnes)]"
+                      cachedDataType="r8"
+                      cachedName="Total fuel consumption (m tonnes)"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_7]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total fuel consumption (m tonnes)]" />
+                    <inputColumn
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[Total time spent at sea (hours)]"
+                      cachedDataType="r8"
+                      cachedName="Total time spent at sea (hours)"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_8]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total time spent at sea (hours)]" />
                     <inputColumn
                       refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[VS_Shipid]"
                       cachedDataType="i4"
                       cachedName="VS_Shipid"
-                      externalMetadataColumnId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_9]"
                       lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[VS_Shipid]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
                       refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      dataType="r8"
+                      name="Param_0">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      dataType="r8"
+                      name="Param_1">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      dataType="r8"
+                      name="Param_2">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
+                      dataType="r8"
+                      name="Param_3">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
+                      dataType="r8"
+                      name="Param_4">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
                       dataType="wstr"
                       length="50"
-                      name="Param_0">
+                      name="Param_5">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -5152,9 +5335,42 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
+                      dataType="r8"
+                      name="Param_6">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_7]"
+                      dataType="r8"
+                      name="Param_7">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_8]"
+                      dataType="r8"
+                      name="Param_8">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">81</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_9]"
                       dataType="i4"
-                      name="Param_1">
+                      name="Param_9">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -5341,6 +5557,78 @@
                       lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Sh_Width]"
                       name="Sh_Width"
                       truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total fuel consumption (m tonnes)]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Total fuel consumption (m tonnes)]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total fuel consumption (m tonnes)]"
+                      name="Total fuel consumption (m tonnes)"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total CO₂ emissions (m tonnes)]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Total CO₂ emissions (m tonnes)]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total CO₂ emissions (m tonnes)]"
+                      name="Total CO₂ emissions (m tonnes)"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual Total time spent at sea (hours)]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Annual Total time spent at sea (hours)]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual Total time spent at sea (hours)]"
+                      name="Annual Total time spent at sea (hours)"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      name="Annual average Fuel consumption per distance (kg / n mile)"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      name="Annual average Fuel consumption per transport work (mass) (g / m"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      name="Annual average CO₂ emissions per distance (kg CO₂ / n mile)"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      name="Annual average CO₂ emissions per transport work (mass) (g CO₂ / "
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total time spent at sea (hours)]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Total time spent at sea (hours)]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total time spent at sea (hours)]"
+                      name="Total time spent at sea (hours)"
+                      truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -5382,6 +5670,38 @@
                       refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Sh_Width]"
                       dataType="i4"
                       name="Sh_Width" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Total fuel consumption (m tonnes)]"
+                      dataType="r8"
+                      name="Total fuel consumption (m tonnes)" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Total CO₂ emissions (m tonnes)]"
+                      dataType="r8"
+                      name="Total CO₂ emissions (m tonnes)" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Annual Total time spent at sea (hours)]"
+                      dataType="r8"
+                      name="Annual Total time spent at sea (hours)" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      dataType="r8"
+                      name="Annual average Fuel consumption per distance (kg / n mile)" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      dataType="r8"
+                      name="Annual average Fuel consumption per transport work (mass) (g / m" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      dataType="r8"
+                      name="Annual average CO₂ emissions per distance (kg CO₂ / n mile)" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      dataType="r8"
+                      name="Annual average CO₂ emissions per transport work (mass) (g CO₂ / " />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Total time spent at sea (hours)]"
+                      dataType="r8"
+                      name="Total time spent at sea (hours)" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -5437,6 +5757,46 @@
                       lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Sh_Width]"
                       name="Sh_Width" />
                     <outputColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Total fuel consumption (m tonnes)]"
+                      dataType="r8"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Total fuel consumption (m tonnes)]"
+                      name="Total fuel consumption (m tonnes)" />
+                    <outputColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Total CO₂ emissions (m tonnes)]"
+                      dataType="r8"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Total CO₂ emissions (m tonnes)]"
+                      name="Total CO₂ emissions (m tonnes)" />
+                    <outputColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Annual Total time spent at sea (hours)]"
+                      dataType="r8"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Annual Total time spent at sea (hours)]"
+                      name="Annual Total time spent at sea (hours)" />
+                    <outputColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      dataType="r8"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      name="Annual average Fuel consumption per distance (kg / n mile)" />
+                    <outputColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      dataType="r8"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      name="Annual average Fuel consumption per transport work (mass) (g / m" />
+                    <outputColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      dataType="r8"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      name="Annual average CO₂ emissions per distance (kg CO₂ / n mile)" />
+                    <outputColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      dataType="r8"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      name="Annual average CO₂ emissions per transport work (mass) (g CO₂ / " />
+                    <outputColumn
+                      refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Total time spent at sea (hours)]"
+                      dataType="r8"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Total time spent at sea (hours)]"
+                      name="Total time spent at sea (hours)" />
+                    <outputColumn
                       refId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
                       lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
@@ -5465,7 +5825,7 @@
                   dataType="System.String"
                   description="Specifies the SELECT statement used to create a schema rowset."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT [Sh_Country], [Sh_Length], [Sh_MaxTEU], [Sh_Shipname], [Sh_SpeedInKm_H], [Sh_SpeedInKnots], [Sh_Width], [Sh_Yearcost], [VS_Shipid],[StartDate],[EndDate] FROM [dbo].[D_Ship]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT [Annual average CO₂ emissions per distance (kg CO₂ / n mile)], [Annual average CO₂ emissions per transport work (mass) (g CO₂ / ], [Annual average Fuel consumption per distance (kg / n mile)], [Annual average Fuel consumption per transport work (mass) (g / m], [Annual Total time spent at sea (hours)], [Sh_Country], [Sh_Length], [Sh_MaxTEU], [Sh_Shipname], [Sh_SpeedInKm_H], [Sh_SpeedInKnots], [Sh_Width], [Sh_Yearcost], [Total CO₂ emissions (m tonnes)], [Total fuel consumption (m tonnes)], [Total time spent at sea (hours)], [VS_Shipid],[StartDate],[EndDate] FROM [dbo].[D_Ship]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the WHERE clause in the SELECT statement that selects the current row among rows with identical business keys."
@@ -5513,6 +5873,71 @@
                   refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
                   name="Slowly Changing Dimension Input">
                   <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      cachedDataType="r8"
+                      cachedName="Annual average CO₂ emissions per distance (kg CO₂ / n mile)"
+                      externalMetadataColumnId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      cachedDataType="r8"
+                      cachedName="Annual average CO₂ emissions per transport work (mass) (g CO₂ / "
+                      externalMetadataColumnId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      cachedDataType="r8"
+                      cachedName="Annual average Fuel consumption per distance (kg / n mile)"
+                      externalMetadataColumnId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average Fuel consumption per distance (kg / n mile)]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      cachedDataType="r8"
+                      cachedName="Annual average Fuel consumption per transport work (mass) (g / m"
+                      externalMetadataColumnId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average Fuel consumption per transport work (mass) (g / m]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Annual Total time spent at sea (hours)]"
+                      cachedDataType="r8"
+                      cachedName="Annual Total time spent at sea (hours)"
+                      externalMetadataColumnId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Annual Total time spent at sea (hours)]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual Total time spent at sea (hours)]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
                     <inputColumn
                       refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Sh_Country]"
                       cachedDataType="wstr"
@@ -5620,6 +6045,45 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
+                      refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Total CO₂ emissions (m tonnes)]"
+                      cachedDataType="r8"
+                      cachedName="Total CO₂ emissions (m tonnes)"
+                      externalMetadataColumnId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Total CO₂ emissions (m tonnes)]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total CO₂ emissions (m tonnes)]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Total fuel consumption (m tonnes)]"
+                      cachedDataType="r8"
+                      cachedName="Total fuel consumption (m tonnes)"
+                      externalMetadataColumnId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Total fuel consumption (m tonnes)]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total fuel consumption (m tonnes)]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[Total time spent at sea (hours)]"
+                      cachedDataType="r8"
+                      cachedName="Total time spent at sea (hours)"
+                      externalMetadataColumnId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Total time spent at sea (hours)]"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total time spent at sea (hours)]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
                       refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[VS_Shipid]"
                       cachedDataType="i4"
                       cachedName="VS_Shipid"
@@ -5635,6 +6099,26 @@
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      dataType="r8"
+                      name="Annual average CO₂ emissions per distance (kg CO₂ / n mile)" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      dataType="r8"
+                      name="Annual average CO₂ emissions per transport work (mass) (g CO₂ / " />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      dataType="r8"
+                      name="Annual average Fuel consumption per distance (kg / n mile)" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      dataType="r8"
+                      name="Annual average Fuel consumption per transport work (mass) (g / m" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Annual Total time spent at sea (hours)]"
+                      dataType="r8"
+                      name="Annual Total time spent at sea (hours)" />
                     <externalMetadataColumn
                       refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Sh_Country]"
                       dataType="wstr"
@@ -5669,6 +6153,18 @@
                       refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Sh_Yearcost]"
                       dataType="cy"
                       name="Sh_Yearcost" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Total CO₂ emissions (m tonnes)]"
+                      dataType="r8"
+                      name="Total CO₂ emissions (m tonnes)" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Total fuel consumption (m tonnes)]"
+                      dataType="r8"
+                      name="Total fuel consumption (m tonnes)" />
+                    <externalMetadataColumn
+                      refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[Total time spent at sea (hours)]"
+                      dataType="r8"
+                      name="Total time spent at sea (hours)" />
                     <externalMetadataColumn
                       refId="Package\Load Ship\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[VS_Shipid]"
                       dataType="i4"
@@ -5866,6 +6362,110 @@
                           name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Sh_Width]}</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Union All.Inputs[Union All Input 1].Columns[Total fuel consumption (m tonnes)]"
+                      cachedDataType="r8"
+                      cachedName="Total fuel consumption (m tonnes)"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total fuel consumption (m tonnes)]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Total fuel consumption (m tonnes)]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Union All.Inputs[Union All Input 1].Columns[Total CO₂ emissions (m tonnes)]"
+                      cachedDataType="r8"
+                      cachedName="Total CO₂ emissions (m tonnes)"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total CO₂ emissions (m tonnes)]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Total CO₂ emissions (m tonnes)]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Union All.Inputs[Union All Input 1].Columns[Annual Total time spent at sea (hours)]"
+                      cachedDataType="r8"
+                      cachedName="Annual Total time spent at sea (hours)"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual Total time spent at sea (hours)]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual Total time spent at sea (hours)]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Union All.Inputs[Union All Input 1].Columns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      cachedDataType="r8"
+                      cachedName="Annual average Fuel consumption per distance (kg / n mile)"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average Fuel consumption per distance (kg / n mile)]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average Fuel consumption per distance (kg / n mile)]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Union All.Inputs[Union All Input 1].Columns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      cachedDataType="r8"
+                      cachedName="Annual average Fuel consumption per transport work (mass) (g / m"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average Fuel consumption per transport work (mass) (g / m]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average Fuel consumption per transport work (mass) (g / m]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Union All.Inputs[Union All Input 1].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      cachedDataType="r8"
+                      cachedName="Annual average CO₂ emissions per distance (kg CO₂ / n mile)"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Union All.Inputs[Union All Input 1].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      cachedDataType="r8"
+                      cachedName="Annual average CO₂ emissions per transport work (mass) (g CO₂ / "
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Union All.Inputs[Union All Input 1].Columns[Total time spent at sea (hours)]"
+                      cachedDataType="r8"
+                      cachedName="Total time spent at sea (hours)"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total time spent at sea (hours)]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Total time spent at sea (hours)]}</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -5993,6 +6593,110 @@
                           name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Sh_Width]}</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Union All.Inputs[Union All Input 2].Columns[Total fuel consumption (m tonnes)]"
+                      cachedDataType="r8"
+                      cachedName="Total fuel consumption (m tonnes)"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total fuel consumption (m tonnes)]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Total fuel consumption (m tonnes)]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Union All.Inputs[Union All Input 2].Columns[Total CO₂ emissions (m tonnes)]"
+                      cachedDataType="r8"
+                      cachedName="Total CO₂ emissions (m tonnes)"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total CO₂ emissions (m tonnes)]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Total CO₂ emissions (m tonnes)]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Union All.Inputs[Union All Input 2].Columns[Annual Total time spent at sea (hours)]"
+                      cachedDataType="r8"
+                      cachedName="Annual Total time spent at sea (hours)"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual Total time spent at sea (hours)]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual Total time spent at sea (hours)]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Union All.Inputs[Union All Input 2].Columns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      cachedDataType="r8"
+                      cachedName="Annual average Fuel consumption per distance (kg / n mile)"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average Fuel consumption per distance (kg / n mile)]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average Fuel consumption per distance (kg / n mile)]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Union All.Inputs[Union All Input 2].Columns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      cachedDataType="r8"
+                      cachedName="Annual average Fuel consumption per transport work (mass) (g / m"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average Fuel consumption per transport work (mass) (g / m]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average Fuel consumption per transport work (mass) (g / m]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Union All.Inputs[Union All Input 2].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      cachedDataType="r8"
+                      cachedName="Annual average CO₂ emissions per distance (kg CO₂ / n mile)"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Union All.Inputs[Union All Input 2].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      cachedDataType="r8"
+                      cachedName="Annual average CO₂ emissions per transport work (mass) (g CO₂ / "
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Ship\Union All.Inputs[Union All Input 2].Columns[Total time spent at sea (hours)]"
+                      cachedDataType="r8"
+                      cachedName="Total time spent at sea (hours)"
+                      lineageId="Package\Load Ship\OLE DB Source.Outputs[OLE DB Source Output].Columns[Total time spent at sea (hours)]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Total time spent at sea (hours)]}</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -6056,6 +6760,46 @@
                       dataType="i4"
                       lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Sh_Width]"
                       name="Sh_Width" />
+                    <outputColumn
+                      refId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Total fuel consumption (m tonnes)]"
+                      dataType="r8"
+                      lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Total fuel consumption (m tonnes)]"
+                      name="Total fuel consumption (m tonnes)" />
+                    <outputColumn
+                      refId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Total CO₂ emissions (m tonnes)]"
+                      dataType="r8"
+                      lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Total CO₂ emissions (m tonnes)]"
+                      name="Total CO₂ emissions (m tonnes)" />
+                    <outputColumn
+                      refId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual Total time spent at sea (hours)]"
+                      dataType="r8"
+                      lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual Total time spent at sea (hours)]"
+                      name="Annual Total time spent at sea (hours)" />
+                    <outputColumn
+                      refId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      dataType="r8"
+                      lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average Fuel consumption per distance (kg / n mile)]"
+                      name="Annual average Fuel consumption per distance (kg / n mile)" />
+                    <outputColumn
+                      refId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      dataType="r8"
+                      lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average Fuel consumption per transport work (mass) (g / m]"
+                      name="Annual average Fuel consumption per transport work (mass) (g / m" />
+                    <outputColumn
+                      refId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      dataType="r8"
+                      lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]"
+                      name="Annual average CO₂ emissions per distance (kg CO₂ / n mile)" />
+                    <outputColumn
+                      refId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      dataType="r8"
+                      lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]"
+                      name="Annual average CO₂ emissions per transport work (mass) (g CO₂ / " />
+                    <outputColumn
+                      refId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Total time spent at sea (hours)]"
+                      dataType="r8"
+                      lineageId="Package\Load Ship\Union All.Outputs[Union All Output 1].Columns[Total time spent at sea (hours)]"
+                      name="Total time spent at sea (hours)" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -11005,6 +11749,10 @@ where [refTable].[VS_Shipid] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="166,42"
+          Id="Package\Load Consignor\OLE DB Command"
+          TopLeft="5.50000000000006,311.5" />
+        <NodeLayout
           Size="175,42"
           Id="Package\Load Consignor\OLE DB Command 1"
           TopLeft="294,209.5" />
@@ -11012,10 +11760,6 @@ where [refTable].[VS_Shipid] = ?</property>
           Size="150,42"
           Id="Package\Load Consignor\OLE DB Source"
           TopLeft="157.5,5.5" />
-        <NodeLayout
-          Size="121,42"
-          Id="Package\Load Consignor\Union All"
-          TopLeft="172,413.5" />
         <NodeLayout
           Size="163,42"
           Id="Package\Load Consignor\Derived Column 1"
@@ -11025,6 +11769,10 @@ where [refTable].[VS_Shipid] = ?</property>
           Id="Package\Load Consignor\Slowly Changing Dimension"
           TopLeft="128.5,107.5" />
         <NodeLayout
+          Size="121,42"
+          Id="Package\Load Consignor\Union All"
+          TopLeft="172,413.5" />
+        <NodeLayout
           Size="163,42"
           Id="Package\Load Consignor\Insert Destination"
           TopLeft="151,617.5" />
@@ -11032,10 +11780,6 @@ where [refTable].[VS_Shipid] = ?</property>
           Size="154,42"
           Id="Package\Load Consignor\Derived Column"
           TopLeft="17.5000000000001,209.5" />
-        <NodeLayout
-          Size="166,42"
-          Id="Package\Load Consignor\OLE DB Command"
-          TopLeft="5.50000000000006,311.5" />
         <EdgeLayout
           Id="Package\Load Consignor.Paths[Union All Output 1]"
           TopLeft="232.5,455.5">
@@ -11055,7 +11799,9 @@ where [refTable].[VS_Shipid] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11077,7 +11823,9 @@ where [refTable].[VS_Shipid] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11111,7 +11859,9 @@ where [refTable].[VS_Shipid] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11205,7 +11955,9 @@ where [refTable].[VS_Shipid] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11227,7 +11979,9 @@ where [refTable].[VS_Shipid] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11412,7 +12166,9 @@ where [refTable].[VS_Shipid] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11434,7 +12190,9 @@ where [refTable].[VS_Shipid] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11468,7 +12226,9 @@ where [refTable].[VS_Shipid] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11562,7 +12322,9 @@ where [refTable].[VS_Shipid] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11584,7 +12346,9 @@ where [refTable].[VS_Shipid] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -11729,7 +12493,9 @@ where [refTable].[VS_Shipid] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11751,7 +12517,9 @@ where [refTable].[VS_Shipid] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11785,7 +12553,9 @@ where [refTable].[VS_Shipid] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11879,7 +12649,9 @@ where [refTable].[VS_Shipid] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11901,7 +12673,9 @@ where [refTable].[VS_Shipid] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12246,17 +13020,21 @@ where [refTable].[VS_Shipid] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="208,42"
-          Id="Package\Load Ship\Slowly Changing Dimension"
-          TopLeft="128.5,107.5" />
+          Size="121,42"
+          Id="Package\Load Ship\Union All"
+          TopLeft="172,413.5" />
+        <NodeLayout
+          Size="150,42"
+          Id="Package\Load Ship\OLE DB Source"
+          TopLeft="157.5,5.5" />
         <NodeLayout
           Size="163,42"
           Id="Package\Load Ship\Derived Column 1"
           TopLeft="151,515.5" />
         <NodeLayout
-          Size="121,42"
-          Id="Package\Load Ship\Union All"
-          TopLeft="172,413.5" />
+          Size="208,42"
+          Id="Package\Load Ship\Slowly Changing Dimension"
+          TopLeft="128.5,107.5" />
         <NodeLayout
           Size="166,42"
           Id="Package\Load Ship\OLE DB Command"
@@ -12265,10 +13043,6 @@ where [refTable].[VS_Shipid] = ?</property>
           Size="175,42"
           Id="Package\Load Ship\OLE DB Command 1"
           TopLeft="294,209.5" />
-        <NodeLayout
-          Size="150,42"
-          Id="Package\Load Ship\OLE DB Source"
-          TopLeft="157.5,5.5" />
         <NodeLayout
           Size="163,42"
           Id="Package\Load Ship\Insert Destination"
@@ -12521,6 +13295,19 @@ where [refTable].[VS_Shipid] = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\Load Ship\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Load Ship\Slowly Changing Dimension">
     <Properties>
       <Property>
@@ -12531,6 +13318,36 @@ where [refTable].[VS_Shipid] = ?</property>
   &lt;ConnectionID&gt;{C0E0F701-B146-42E6-804A-BA28E7E33356}&lt;/ConnectionID&gt;
   &lt;TableName&gt;[dbo].[D_Ship]&lt;/TableName&gt;
   &lt;InputToColumnsCollection&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average CO₂ emissions per distance (kg CO₂ / n mile)]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Annual average CO₂ emissions per distance (kg CO₂ / n mile)&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average CO₂ emissions per transport work (mass) (g CO₂ / ]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Annual average CO₂ emissions per transport work (mass) (g CO₂ / &lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average Fuel consumption per distance (kg / n mile)]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Annual average Fuel consumption per distance (kg / n mile)&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual average Fuel consumption per transport work (mass) (g / m]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Annual average Fuel consumption per transport work (mass) (g / m&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[Annual Total time spent at sea (hours)]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Annual Total time spent at sea (hours)&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
       &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[Sh_Country]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;Sh_Country&lt;/ColumnName&gt;
@@ -12580,6 +13397,24 @@ where [refTable].[VS_Shipid] = ?</property>
       &lt;ChangeType&gt;HistoricalAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[Total CO₂ emissions (m tonnes)]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Total CO₂ emissions (m tonnes)&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[Total fuel consumption (m tonnes)]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Total fuel consumption (m tonnes)&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[Total time spent at sea (hours)]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Total time spent at sea (hours)&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
       &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[VS_Shipid]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;VS_Shipid&lt;/ColumnName&gt;
       &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
@@ -12609,64 +13444,35 @@ where [refTable].[VS_Shipid] = ?</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load Ship\OLE DB Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Load ShipmentVoyage">
     <LayoutInfo>
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="182,42"
-          Id="Package\Load ShipmentVoyage\Row Facts increments"
-          TopLeft="898,462" />
-        <NodeLayout
-          Size="132,42"
-          Id="Package\Load ShipmentVoyage\PortIdFrom"
-          TopLeft="181,379" />
-        <NodeLayout
-          Size="122,42"
-          Id="Package\Load ShipmentVoyage\Lookup 4"
-          TopLeft="622.5,788.125" />
-        <NodeLayout
-          Size="136,42"
-          Id="Package\Load ShipmentVoyage\ConsignorId"
-          TopLeft="373,282" />
+          Size="134,42"
+          Id="Package\Load ShipmentVoyage\ContainerId"
+          TopLeft="919,234" />
         <NodeLayout
           Size="132,42"
           Id="Package\Load ShipmentVoyage\PortIDStart"
           TopLeft="392,389" />
         <NodeLayout
-          Size="165,42"
-          Id="Package\Load ShipmentVoyage\ContainerRevenue"
-          TopLeft="871.25,787.5" />
-        <NodeLayout
-          Size="150,42"
-          Id="Package\Load ShipmentVoyage\TuePercentage"
-          TopLeft="824,597" />
-        <NodeLayout
           Size="116,42"
           Id="Package\Load ShipmentVoyage\MaxTue"
           TopLeft="572.5,580.5" />
         <NodeLayout
-          Size="111,42"
-          Id="Package\Load ShipmentVoyage\ItemId"
-          TopLeft="697,235" />
+          Size="147,42"
+          Id="Package\Load ShipmentVoyage\ContainerPrice"
+          TopLeft="583,690.5" />
         <NodeLayout
-          Size="150,43"
-          Id="Package\Load ShipmentVoyage\OLE DB Source"
-          TopLeft="468,119" />
+          Size="168,42"
+          Id="Package\Load ShipmentVoyage\TotalContainerCost"
+          TopLeft="825,692.5" />
+        <NodeLayout
+          Size="108,42"
+          Id="Package\Load ShipmentVoyage\shipId"
+          TopLeft="470,198" />
         <NodeLayout
           Size="127,42"
           Id="Package\Load ShipmentVoyage\PortID_To"
@@ -12676,25 +13482,161 @@ where [refTable].[VS_Shipid] = ?</property>
           Id="Package\Load ShipmentVoyage\PortIDend"
           TopLeft="665,392" />
         <NodeLayout
-          Size="168,42"
-          Id="Package\Load ShipmentVoyage\TotalContainerCost"
-          TopLeft="825,692.5" />
-        <NodeLayout
-          Size="134,42"
-          Id="Package\Load ShipmentVoyage\ContainerId"
-          TopLeft="919,234" />
-        <NodeLayout
           Size="171,42"
           Id="Package\Load ShipmentVoyage\OLE DB Destination"
           TopLeft="860.75,913.875" />
         <NodeLayout
-          Size="147,42"
-          Id="Package\Load ShipmentVoyage\ContainerPrice"
-          TopLeft="583,690.5" />
+          Size="111,42"
+          Id="Package\Load ShipmentVoyage\ItemId"
+          TopLeft="697,235" />
         <NodeLayout
-          Size="108,42"
-          Id="Package\Load ShipmentVoyage\shipId"
-          TopLeft="470,198" />
+          Size="150,42"
+          Id="Package\Load ShipmentVoyage\TuePercentage"
+          TopLeft="824,597" />
+        <NodeLayout
+          Size="150,43"
+          Id="Package\Load ShipmentVoyage\OLE DB Source"
+          TopLeft="468,119" />
+        <NodeLayout
+          Size="182,42"
+          Id="Package\Load ShipmentVoyage\Row Facts increments"
+          TopLeft="898,462" />
+        <NodeLayout
+          Size="132,42"
+          Id="Package\Load ShipmentVoyage\PortIdFrom"
+          TopLeft="181,379" />
+        <NodeLayout
+          Size="136,42"
+          Id="Package\Load ShipmentVoyage\ConsignorId"
+          TopLeft="373,282" />
+        <NodeLayout
+          Size="165,42"
+          Id="Package\Load ShipmentVoyage\ContainerRevenue"
+          TopLeft="871.25,787.5" />
+        <NodeLayout
+          Size="122,42"
+          Id="Package\Load ShipmentVoyage\Lookup 4"
+          TopLeft="622.5,788.125" />
+        <EdgeLayout
+          Id="Package\Load ShipmentVoyage.Paths[Lookup Match Output9]"
+          TopLeft="730,712.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="95,0"
+              Start="0,0"
+              End="87.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="87.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-4.44138671875,5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load ShipmentVoyage.Paths[Lookup Match Output8]"
+          TopLeft="688.5,601.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="135.5,16.5"
+              Start="0,0"
+              End="128,16.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="63.75,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="63.75,0"
+                    Point2="67.75,0"
+                    Point3="67.75,4" />
+                  <mssgle:LineSegment
+                    End="67.75,12.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="67.75,12.5"
+                    Point2="67.75,16.5"
+                    Point3="71.75,16.5" />
+                  <mssgle:LineSegment
+                    End="128,16.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="19.55861328125,-17.609375,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load ShipmentVoyage.Paths[Lookup Match Output7]"
+          TopLeft="728.5,434">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="260.5,28"
+              Start="0,0"
+              End="260.5,20.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10"
+                    Point2="0,14"
+                    Point3="4,14" />
+                  <mssgle:LineSegment
+                    End="256.5,14" />
+                  <mssgle:CubicBezierSegment
+                    Point1="256.5,14"
+                    Point2="260.5,14"
+                    Point3="260.5,18" />
+                  <mssgle:LineSegment
+                    End="260.5,20.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="82.05861328125,19,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load ShipmentVoyage.Paths[Lookup Match Output6]"
+          TopLeft="524,411.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="141,0"
+              Start="0,0"
+              End="133.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="133.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="18.55861328125,5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Load ShipmentVoyage.Paths[Lookup Match Output5]"
           TopLeft="313,400">
@@ -13071,154 +14013,11 @@ where [refTable].[VS_Shipid] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load ShipmentVoyage.Paths[Lookup Match Output9]"
-          TopLeft="730,712.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="95,0"
-              Start="0,0"
-              End="87.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="87.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-4.44138671875,5,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load ShipmentVoyage.Paths[Lookup Match Output8]"
-          TopLeft="688.5,601.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="135.5,16.5"
-              Start="0,0"
-              End="128,16.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="63.75,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="63.75,0"
-                    Point2="67.75,0"
-                    Point3="67.75,4" />
-                  <mssgle:LineSegment
-                    End="67.75,12.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="67.75,12.5"
-                    Point2="67.75,16.5"
-                    Point3="71.75,16.5" />
-                  <mssgle:LineSegment
-                    End="128,16.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="19.55861328125,-17.609375,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load ShipmentVoyage.Paths[Lookup Match Output7]"
-          TopLeft="728.5,434">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="260.5,28"
-              Start="0,0"
-              End="260.5,20.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,10" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,10"
-                    Point2="0,14"
-                    Point3="4,14" />
-                  <mssgle:LineSegment
-                    End="256.5,14" />
-                  <mssgle:CubicBezierSegment
-                    Point1="256.5,14"
-                    Point2="260.5,14"
-                    Point3="260.5,18" />
-                  <mssgle:LineSegment
-                    End="260.5,20.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="82.05861328125,19,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load ShipmentVoyage.Paths[Lookup Match Output6]"
-          TopLeft="524,411.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="141,0"
-              Start="0,0"
-              End="133.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="133.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="18.55861328125,5,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Load ShipmentVoyage\Row Facts increments">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[F_ShipmentVoyage]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load ShipmentVoyage\PortIdFrom">
+    design-time-name="Package\Load ShipmentVoyage\ContainerId">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
@@ -13228,58 +14027,12 @@ where [refTable].[VS_Shipid] = ?</property>
       <Property>
         <Name>UsedTableName</Name>
         <Value
-          type="q3:string">[dbo].[D_Port]</Value>
+          type="q3:string">[dbo].[D_Container]</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load ShipmentVoyage\Lookup 4">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[D_Consigner]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load ShipmentVoyage\ConsignorId">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[D_Consigner]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -13333,7 +14086,7 @@ where [refTable].[VS_Shipid] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load ShipmentVoyage\ItemId">
+    design-time-name="Package\Load ShipmentVoyage\ContainerPrice">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
@@ -13343,7 +14096,7 @@ where [refTable].[VS_Shipid] = ?</property>
       <Property>
         <Name>UsedTableName</Name>
         <Value
-          type="q3:string">[dbo].[D_Item]</Value>
+          type="q3:string">[dbo].[D_Container]</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
@@ -13356,15 +14109,25 @@ where [refTable].[VS_Shipid] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load ShipmentVoyage\OLE DB Source">
+    design-time-name="Package\Load ShipmentVoyage\shipId">
     <Properties>
       <Property>
-        <Name>DataSourceViewID</Name>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[D_Ship]</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q2:string">Table</Value>
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -13415,29 +14178,6 @@ where [refTable].[VS_Shipid] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load ShipmentVoyage\ContainerId">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[D_Container]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Load ShipmentVoyage\OLE DB Destination">
     <Properties>
       <Property>
@@ -13451,7 +14191,7 @@ where [refTable].[VS_Shipid] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load ShipmentVoyage\ContainerPrice">
+    design-time-name="Package\Load ShipmentVoyage\ItemId">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
@@ -13461,7 +14201,7 @@ where [refTable].[VS_Shipid] = ?</property>
       <Property>
         <Name>UsedTableName</Name>
         <Value
-          type="q3:string">[dbo].[D_Container]</Value>
+          type="q3:string">[dbo].[D_Item]</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
@@ -13474,7 +14214,20 @@ where [refTable].[VS_Shipid] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Load ShipmentVoyage\shipId">
+    design-time-name="Package\Load ShipmentVoyage\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load ShipmentVoyage\Row Facts increments">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
@@ -13484,7 +14237,76 @@ where [refTable].[VS_Shipid] = ?</property>
       <Property>
         <Name>UsedTableName</Name>
         <Value
-          type="q3:string">[dbo].[D_Ship]</Value>
+          type="q3:string">[dbo].[F_ShipmentVoyage]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load ShipmentVoyage\PortIdFrom">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[D_Port]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load ShipmentVoyage\ConsignorId">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[D_Consigner]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load ShipmentVoyage\Lookup 4">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[D_Consigner]</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
